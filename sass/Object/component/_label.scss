@@ -1,0 +1,6 @@
+.c-label {
+    @include font-size(12);
+    background-color: $color-background-black;
+    color: $color-text-white;
+    padding: 0.2em 0.3em;
+}

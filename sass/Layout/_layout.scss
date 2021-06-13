@@ -1,0 +1,13 @@
+// インナー
+.l-inner {
+    max-width: 100%;
+    margin: 0 auto;
+
+    @include mq(md) {
+        padding: 0 16px;
+    }
+    // 小
+    &--xs {
+        max-width: 1000px;
+    }
+}

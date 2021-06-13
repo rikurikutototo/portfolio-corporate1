@@ -1,0 +1,8 @@
+// セクションにつく上下余白の統一
+.l-section {
+    padding: 70px 0;
+
+    @include mq(md) {
+        padding: 40px 0;
+    }
+}
